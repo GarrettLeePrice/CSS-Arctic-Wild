@@ -1,17 +1,31 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
 .section1 {
-  height: 100vh;
-  width: 100vw;
+  height: 900px;
+  width: 1660px;
   background-image: url("../img/bckgrnd1.jpg");
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   background-repeat: no-repeat; }
+
+.headline {
+  width: 700px;
+  align-self: center;
+  text-align: center; }
 
 .nav1 {
   display: flex;
-  width: 70vw;
+  width: 1400px;
   height: 50px;
   justify-content: space-between;
-  margin: 0 auto; }
+  justify-content: center;
+  margin: 100px auto;
+  position: absolute; }
 
 .nav1-controls {
   display: flex; }
@@ -20,6 +34,20 @@
     display: flex; }
   .nav1-controls li {
     color: white;
-    padding: 10px; }
+    padding-left: 30px; }
+
+h1, h3 {
+  color: white; }
+
+hr {
+  color: white;
+  width: 120px; }
+
+.headline h1 {
+  font-size: 70pt;
+  font-family: serif;
+  line-height: 8px; }
+.headline h3 {
+  font-family: sans-serif; }
 
 /*# sourceMappingURL=application.css.map */
