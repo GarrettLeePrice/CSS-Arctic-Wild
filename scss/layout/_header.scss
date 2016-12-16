@@ -1,0 +1,23 @@
+.nav1 {
+  display: flex;
+  width: 70vw;
+  height: 50px;
+  justify-content: space-between;
+  margin: 0 auto;
+
+
+
+}
+
+.nav1-controls {
+  display: flex;
+  ul {
+    list-style-type: none;
+    display: flex;
+
+  }
+  li {
+    color: white;
+    padding: 10px;
+  }
+}
