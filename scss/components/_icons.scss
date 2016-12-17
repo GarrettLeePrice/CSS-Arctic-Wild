@@ -8,13 +8,41 @@
   border-radius: 50%;
   background-color: black;
   opacity: .5;
-}
+    @media (max-width: 839px) {
 
+    }
+}
 .icon img {
   width: 50%;
   height: auto;
   left: 25px;
   top: 23px;
   position: relative;
+    @media (max-width: 839px) {
 
+  }
+}
+
+#iconPhoto {
+  @media (max-width: 839px) {
+    right: 125px;
+  }
+}
+
+#iconCanoe {
+  @media (max-width: 839px) {
+    right: 90px;
+  }
+}
+
+#iconbckPck {
+  @media (max-width: 839px) {
+    right: 115px;
+  }
+}
+
+#iconbaseCmp {
+  @media (max-width: 839px) {
+    right: 110px;
+  }
 }

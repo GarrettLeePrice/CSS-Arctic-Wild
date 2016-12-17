@@ -28,7 +28,9 @@ footer, header, hgroup, menu, nav, section {
   display: block; }
 
 body {
-  line-height: 1; }
+  line-height: 1;
+  background-color: rgb(209, 209, 201);
+ }
 
 ol, ul {
   list-style: none; }
@@ -51,7 +53,3 @@ table {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
-
-  body {
-
-  }

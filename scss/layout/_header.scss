@@ -3,20 +3,25 @@
   width: 100vw;
   max-width: 1650px;
   height: 50px;
-  justify-content: space-between;
-  justify-content: center;
+  justify-content: space-around;
+  // justify-content: center;
   margin: 100px auto;
   position: absolute;
     @media (max-width: 839px) {
-      display: none;
+      justify-content: flex-start;
+      margin-left: 45px;
+      margin-top: 30px;
     }
-
 
 }
 
 .nav1-controls {
   display: flex;
   align-self:center;
+    @media (max-width: 839px) {
+      display: none;
+
+  }
   ul {
     list-style-type: none;
     display: flex;

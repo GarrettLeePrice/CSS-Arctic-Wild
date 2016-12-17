@@ -4,13 +4,14 @@
   max-width: 1650px;
   background-image: url("../img/bckgrnd1.jpg");
   display: flex;
-
+  background-color: rgb(209, 209, 201);
   justify-content: center;
 
   background-repeat: no-repeat;
     @media (max-width: 839px) {
-      background-position:center right;
-      height: 100%;
+      height: 500px;
+      // width: 70%;
+      background-position: center right;
     }
 }
 
@@ -36,7 +37,7 @@
   height: auto;
   display: flex;
   flex-wrap: wrap;
-  background-color: white;
+  background-color: rgb(209, 209, 201);
     @media (max-width: 839px) {
       display: block;
     }
@@ -52,10 +53,11 @@
   background-position: center;
   display: flex;
     @media (max-width: 839px) {
-      width: 65vw;
+      width: 90vw;
       height: 250px;
-      margin: 10px auto;
+      margin: 20px auto;
       padding: 10px;
+      background-position: bottom right;
 
   }
 
@@ -71,10 +73,11 @@
   background-position: center;
   display: flex;
     @media (max-width: 839px) {
-      width: 65vw;
+      width: 90vw;
       height: 250px;
-      margin: 10px auto;
+      margin: 20px auto;
       padding: 10px;
+      background-position: center right;
 
     }
   }
@@ -88,10 +91,11 @@
   background-position: center;
   display: flex;
     @media (max-width: 839px) {
-      width: 65vw;
+      width: 90vw;
       height: 250px;
-      margin: 10px auto;
+      margin: 20px auto;
       padding: 10px;
+      background-position: center right;
 
     }
 }
@@ -105,10 +109,11 @@
   background-position: center;
   display: flex;
     @media (max-width: 839px) {
-      width: 65vw;
+      width: 90vw;
       height: 250px;
-      margin: 10px auto;
+      margin: 20px auto;
       padding: 10px;
+      background-position: center right;
 
     }
 }
@@ -122,10 +127,11 @@
   background-position: center;
   display: flex;
     @media (max-width: 839px) {
-      width: 65vw;
+      width: 90vw;
       height: 250px;
-      margin: 10px auto;
+      margin: 20px auto;
       padding: 10px;
+      background-position: center right;
 
   }
 }
@@ -139,10 +145,11 @@
   background-position: center;
   display: flex;
     @media (max-width: 839px) {
-      width: 65vw;
+      width: 90vw;
       height: 250px;
-      margin: 10px auto;
+      margin: 20px auto;
       padding: 10px;
+      background-position: center right;
 
     }
 }
