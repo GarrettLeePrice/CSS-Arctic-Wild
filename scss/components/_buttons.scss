@@ -27,7 +27,8 @@
 
 .nav2 {
   display: flex;
-  width: 1660px;
+  width: 100vw;
+  max-width: 1650px;
   height: 80px;
   justify-content: space-between;
   // justify-content: center;
