@@ -12,12 +12,17 @@ hr {
     font-size: 88pt;
     font-family: serif;
     padding-top: 18px;
+      @media (max-width: 839px) {
+        font-size: 44pt;
+      }
   }
   h3{
     font-family: sans-serif;
     font-size: 15pt;
     letter-spacing: 3px;
-
+      @media (max-width: 839px) {
+      font-size: 10pt; 
+    }
   }
 }
 

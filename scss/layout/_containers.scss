@@ -8,20 +8,26 @@
   justify-content: center;
 
   background-repeat: no-repeat;
+    @media (max-width: 839px) {
+      background-position:center right;
+      height: 100%;
+    }
 }
 
 .headline {
   margin-top: 200px;
   width: 850px;
-  // height: auto;
-  // margin: 0 auto;
+  // heightvw auto;
+  margin: 0 auto;
   align-self: center;
   // right: 500px;
   // justify-content: center;
   text-align: center;
 
-
-
+  // @media (max-width: 839px) {
+  //   width: 450px;
+  //
+  // }
 }
 
 .section2 {
@@ -30,79 +36,113 @@
   height: auto;
   display: flex;
   flex-wrap: wrap;
-  background-color: pink;
+  background-color: white;
+    @media (max-width: 839px) {
+      display: block;
+    }
 }
+
 
 #rafting {
   flex-grow: 2;
-  width: 50%;
+  width: 420px;
   height: 420px;
   background-image: url("../img/raft.jpg");
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
-  justify-content: flex-start;
-  align-items:flex-end;
+    @media (max-width: 839px) {
+      width: 65vw;
+      height: 250px;
+      margin: 10px auto;
+      padding: 10px;
+
+  }
 
 
 }
 
 #baseCamp {
   flex-grow: 1;
-  width: 25%;
+  width: 420px;
   height: 420px;
   background-image: url("../img/basecamp.jpg");
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
-  justify-content: flex-start;
-  align-items:flex-end;
-}
+    @media (max-width: 839px) {
+      width: 65vw;
+      height: 250px;
+      margin: 10px auto;
+      padding: 10px;
+
+    }
+  }
 
 #backPacking {
   flex-grow: 1;
-  width: 25%;
+  width: 420px;
   height: 420px;
   background-image: url("../img/backpacking.jpg");
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
-  justify-content: flex-start;
-  align-items:flex-end;
+    @media (max-width: 839px) {
+      width: 65vw;
+      height: 250px;
+      margin: 10px auto;
+      padding: 10px;
+
+    }
 }
 
 #canoe {
   flex-grow: 1;
-  width: 25%;
+  width: 420px;
   height: 420px;
   background-image: url("../img/canoe.jpg");
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
-  justify-content: flex-start;
-  align-items:flex-end;
+    @media (max-width: 839px) {
+      width: 65vw;
+      height: 250px;
+      margin: 10px auto;
+      padding: 10px;
+
+    }
 }
 
 #photo {
   flex-grow: 1;
-  width: 25%;
+  width: 420px;
   height: 420px;
   background-image: url("../img/photo.jpg");
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
-  justify-content: flex-start;
-  align-items:flex-end;
+    @media (max-width: 839px) {
+      width: 65vw;
+      height: 250px;
+      margin: 10px auto;
+      padding: 10px;
+
+  }
 }
 
 #custom {
   flex-grow: 2;
-  width: 50%;
+  width: 420px;
   height: 420px;
   background-image: url("../img/custom.jpg");
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
-  justify-content: flex-start;
-  align-items:flex-end;
+    @media (max-width: 839px) {
+      width: 65vw;
+      height: 250px;
+      margin: 10px auto;
+      padding: 10px;
+
+    }
 }

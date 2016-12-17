@@ -7,7 +7,9 @@
   justify-content: center;
   margin: 100px auto;
   position: absolute;
-
+    @media (max-width: 839px) {
+      display: none;
+    }
 
 
 }

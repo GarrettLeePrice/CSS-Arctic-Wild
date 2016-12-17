@@ -8,6 +8,9 @@
       height:50px;
       border-radius: 10px;
     }
+      @media (max-width: 839px) {
+        display: none;
+      }
 }
 
 
@@ -18,16 +21,23 @@
   opacity: .7;
   border-radius: 50%;
   border: none;
+    @media (max-width: 839px) {
+      width: 75px;
+      height: 75px;
+  }
 }
 
 #playBtn img {
   padding-left: 10px;
+  @media (max-width: 839px) {
+    width: 30px;
+  }
 
 }
 
 .nav2 {
   display: flex;
-  width: 100vw;
+  width: 100%;
   max-width: 1650px;
   height: 80px;
   justify-content: space-between;
@@ -35,9 +45,10 @@
   margin: 0 auto;
   position: absolute;
   background-color: #646461;
+    @media (max-width: 839px) {
+      display: none;
 
-
-
+    }
 }
 
 .nav2-controls {
