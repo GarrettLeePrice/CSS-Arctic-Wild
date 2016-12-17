@@ -159,6 +159,25 @@
 #home {
   color: #dc7725; }
 
+.icon {
+  align-self: center;
+  margin: 0 auto;
+  right: 70px;
+  position: relative;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: black;
+  opacity: .5; }
+
+.icon img {
+  width: 50%;
+  height: auto;
+  left: 25px;
+  top: 23px;
+  position: relative; }
+
 h1, h3 {
   color: white; }
 
@@ -175,5 +194,10 @@ hr {
 
 .tileText h3 {
   color: white; }
+
+.tileText {
+  justify-content: flex-start;
+  align-self: flex-end;
+  margin-left: 30px; }
 
 /*# sourceMappingURL=application.css.map */
