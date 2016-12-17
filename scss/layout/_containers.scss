@@ -1,5 +1,5 @@
 .section1 {
-  height:900px;
+  height:870px;
   width: 1660px;
 
   background-image: url("../img/bckgrnd1.jpg");
@@ -24,8 +24,17 @@
 
 
 }
-//
-// .headline img {
-//
-//   text-align: center;
-// }
+
+.section2 {
+  width: 1660px;
+  height: 790px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#rafting {
+  flex-grow: 2;
+  background-image: url("../img/raft.jpg");
+  height: 395px;
+  background-repeat: no-repeat;
+}

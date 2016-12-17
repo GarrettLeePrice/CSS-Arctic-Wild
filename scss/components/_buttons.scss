@@ -22,5 +22,42 @@
 
 #playBtn img {
   padding-left: 10px;
-  
+
+}
+
+.nav2 {
+  display: flex;
+  width: 1660px;
+  height: 80px;
+  justify-content: space-between;
+  // justify-content: center;
+  margin: 0 auto;
+  position: absolute;
+  background-color: #646461;
+
+
+
+}
+
+.nav2-controls {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  left: 140px;
+  position: relative;
+
+
+  ul {
+    list-style-type: none;
+    display: flex;
+
+  }
+  li {
+    color: white;
+    padding-left: 30px;
+  }
+}
+
+#home {
+  color: #dc7725;
 }

@@ -6,7 +6,7 @@
   box-sizing: border-box; }
 
 .section1 {
-  height: 900px;
+  height: 870px;
   width: 1660px;
   background-image: url("../img/bckgrnd1.jpg");
   display: flex;
@@ -17,6 +17,18 @@
   width: 700px;
   align-self: center;
   text-align: center; }
+
+.section2 {
+  width: 1660px;
+  height: 790px;
+  display: flex;
+  flex-wrap: wrap; }
+
+#rafting {
+  flex-grow: 2;
+  background-image: url("../img/raft.jpg");
+  height: 395px;
+  background-repeat: no-repeat; }
 
 .nav1 {
   display: flex;
@@ -56,6 +68,31 @@
 
 #playBtn img {
   padding-left: 10px; }
+
+.nav2 {
+  display: flex;
+  width: 1660px;
+  height: 80px;
+  justify-content: space-between;
+  margin: 0 auto;
+  position: absolute;
+  background-color: #646461; }
+
+.nav2-controls {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  left: 140px;
+  position: relative; }
+  .nav2-controls ul {
+    list-style-type: none;
+    display: flex; }
+  .nav2-controls li {
+    color: white;
+    padding-left: 30px; }
+
+#home {
+  color: #dc7725; }
 
 h1, h3 {
   color: white; }
