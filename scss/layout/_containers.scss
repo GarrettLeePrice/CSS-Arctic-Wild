@@ -11,7 +11,8 @@
 }
 
 .headline {
-  width:700px;
+  margin-top: 200px;
+  width: 850px;
   // height: auto;
   // margin: 0 auto;
   align-self: center;
@@ -26,7 +27,7 @@
 .section2 {
   width: 100vw;
   max-width: 1650px;
-  height: 800px;
+  height: auto;
   display: flex;
   flex-wrap: wrap;
   background-color: pink;
@@ -37,7 +38,6 @@
   width: 50%;
   height: 420px;
   background-image: url("../img/raft.jpg");
-  // height: 395px;
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
@@ -52,7 +52,6 @@
   width: 25%;
   height: 420px;
   background-image: url("../img/basecamp.jpg");
-  // height: 395px;
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
@@ -65,7 +64,6 @@
   width: 25%;
   height: 420px;
   background-image: url("../img/backpacking.jpg");
-  // height: 395px;
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
@@ -78,7 +76,6 @@
   width: 25%;
   height: 420px;
   background-image: url("../img/canoe.jpg");
-  // height: 395px;
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
@@ -91,7 +88,6 @@
   width: 25%;
   height: 420px;
   background-image: url("../img/photo.jpg");
-  // height: 395px;
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
@@ -104,7 +100,6 @@
   width: 50%;
   height: 420px;
   background-image: url("../img/custom.jpg");
-  // height: 395px;
   background-repeat: no-repeat;
   background-position: center;
   display: flex;

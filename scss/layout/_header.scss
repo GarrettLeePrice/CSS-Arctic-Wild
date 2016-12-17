@@ -14,13 +14,17 @@
 
 .nav1-controls {
   display: flex;
+  align-self:center;
   ul {
     list-style-type: none;
     display: flex;
+    padding-top: 0;
+
 
   }
   li {
     color: white;
     padding-left: 30px;
+    font-family: sans-serif;
   }
 }
