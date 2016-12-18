@@ -1,12 +1,12 @@
 .section1 {
-  height:870px;
+  height:950px;
   width: 100vw;
   max-width: 1650px;
   background-image: url("../img/bckgrnd1.jpg");
   display: flex;
   background-color: rgb(209, 209, 201);
   justify-content: center;
-
+  background-size:cover;
   background-repeat: no-repeat;
     @media (max-width: 839px) {
       height: 500px;
@@ -16,7 +16,7 @@
 }
 
 .headline {
-  margin-top: 200px;
+  margin-top: 295px;
   width: 850px;
   // heightvw auto;
   margin: 0 auto;
@@ -25,10 +25,10 @@
   // justify-content: center;
   text-align: center;
 
-  // @media (max-width: 839px) {
-  //   width: 450px;
-  //
-  // }
+    @media (min-width: 839px) {
+      padding-top: 200px;
+
+  }
 }
 
 .section2 {

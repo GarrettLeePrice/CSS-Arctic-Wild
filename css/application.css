@@ -54,13 +54,14 @@ table {
   box-sizing: border-box; }
 
 .section1 {
-  height: 870px;
+  height: 950px;
   width: 100vw;
   max-width: 1650px;
   background-image: url("../img/bckgrnd1.jpg");
   display: flex;
   background-color: #d1d1c9;
   justify-content: center;
+  background-size: cover;
   background-repeat: no-repeat; }
   @media (max-width: 839px) {
     .section1 {
@@ -68,11 +69,14 @@ table {
       background-position: center right; } }
 
 .headline {
-  margin-top: 200px;
+  margin-top: 295px;
   width: 850px;
   margin: 0 auto;
   align-self: center;
   text-align: center; }
+  @media (min-width: 839px) {
+    .headline {
+      padding-top: 200px; } }
 
 .section2 {
   width: 100vw;
@@ -325,8 +329,9 @@ h1, h3 {
   color: white; }
 
 hr {
-  color: white;
-  width: 120px; }
+  width: 240px;
+  border: 2px solid white;
+  margin-top: 20px; }
 
 .tileHr {
   border: 2px solid #dc7725;
