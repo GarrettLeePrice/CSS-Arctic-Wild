@@ -10,7 +10,6 @@
   background-repeat: no-repeat;
     @media (max-width: 839px) {
       height: 500px;
-      // width: 70%;
       background-position: center right;
     }
 }
@@ -18,11 +17,8 @@
 .headline {
   margin-top: 295px;
   width: 850px;
-  // heightvw auto;
   margin: 0 auto;
   align-self: center;
-  // right: 500px;
-  // justify-content: center;
   text-align: center;
 
     @media (min-width: 839px) {

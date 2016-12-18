@@ -222,7 +222,9 @@ table {
     color: white;
     width: 150px;
     height: 50px;
-    border-radius: 10px; }
+    border-radius: 5px;
+    font-size: 10pt;
+    padding: 10px 5px; }
   @media (max-width: 839px) {
     .exploreBtn {
       display: none; } }
@@ -250,6 +252,13 @@ table {
   @media (max-width: 839px) {
     #playBtn img {
       width: 30px; } }
+
+#playTriangle {
+  transform: rotate(90deg);
+  width: 20px;
+  top: 33px;
+  right: 85px;
+  position: relative; }
 
 .nav2 {
   display: flex;
