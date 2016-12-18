@@ -7,6 +7,13 @@ hr {
   width:120px;
 }
 
+.tileHr {
+  border: 2px solid #dc7725;
+  width: 40px;
+  margin-left: 20px;
+  margin-bottom: 0;
+}
+
 .headline {
   h1{
     font-size: 88pt;
@@ -21,7 +28,7 @@ hr {
     font-size: 15pt;
     letter-spacing: 3px;
       @media (max-width: 839px) {
-      font-size: 10pt; 
+      font-size: 10pt;
     }
   }
 }
@@ -37,5 +44,4 @@ hr {
   align-self:flex-end;
   margin-left: 30px;
 
-
-}
+  }

@@ -49,10 +49,11 @@
   max-width: 1650px;
   height: 80px;
   justify-content: space-between;
-  // justify-content: center;
+  border: 1px solid black;
   margin: 0 auto;
   position: absolute;
   background-color: #646461;
+  background-image: url("../img/bg-categorynav.jpg");
     @media (max-width: 839px) {
       display: none;
 
@@ -73,9 +74,15 @@
 
   }
   li {
-    color: white;
+    color: #bdbdb7;
+    font-family: sans-serif;
     padding-left: 30px;
+
   }
+}
+
+.nav2-controls li:hover {
+  color: white;
 }
 
 #home {
