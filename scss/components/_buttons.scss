@@ -41,7 +41,7 @@
 #playBtn img {
   padding-left: 15px;
   @media (max-width: 839px) {
-    width: 40px;
+    width: 30px;
     padding-right: 7px;
   }
 
@@ -58,7 +58,6 @@
 .nav2 {
   display: flex;
   width: 100%;
-  // max-width: 1650px;
   height: 80px;
   justify-content: space-between;
   border: 1px solid black;
@@ -78,20 +77,18 @@
   width: 40%;
   left: 140px;
   position: relative;
+    ul {
+      list-style-type: none;
+      display: flex;
 
+    }
+    li {
+      color: #bdbdb7;
+      font-family: sans-serif;
+      padding-left: 30px;
 
-  ul {
-    list-style-type: none;
-    display: flex;
-
+    }
   }
-  li {
-    color: #bdbdb7;
-    font-family: sans-serif;
-    padding-left: 30px;
-
-  }
-}
 
 .nav2-controls li:hover {
   color: white;

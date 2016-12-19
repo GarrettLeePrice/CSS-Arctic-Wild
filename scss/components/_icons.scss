@@ -5,12 +5,10 @@
   position: relative;
   height: 100px;
   width: 100px;
+  min-width: 100px;
   border-radius: 50%;
   background-color: black;
   opacity: .5;
-    @media (max-width: 839px) {
-
-    }
 }
 
 .icon img {

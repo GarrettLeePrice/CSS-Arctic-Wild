@@ -79,12 +79,13 @@ table {
 .section2 {
   width: 100%;
   height: auto;
+  margin-top: 80px;
   display: flex;
   flex-wrap: wrap;
   background-color: #d1d1c9; }
   @media (max-width: 839px) {
     .section2 {
-      display: block; } }
+      margin-top: 20px; } }
 
 .galleryImg:hover .icon {
   cursor: pointer;
@@ -99,6 +100,9 @@ table {
   background-position: center;
   background-size: cover;
   display: flex; }
+  @media (max-width: 1080px) {
+    #rafting {
+      width: 100%; } }
   @media (max-width: 839px) {
     #rafting {
       width: 90vw;
@@ -114,6 +118,9 @@ table {
   background-repeat: no-repeat;
   background-position: center;
   display: flex; }
+  @media (max-width: 1080px) {
+    #baseCamp {
+      width: 50%; } }
   @media (max-width: 839px) {
     #baseCamp {
       width: 90vw;
@@ -129,6 +136,9 @@ table {
   background-repeat: no-repeat;
   background-position: center;
   display: flex; }
+  @media (max-width: 1080px) {
+    #backPacking {
+      width: 50%; } }
   @media (max-width: 839px) {
     #backPacking {
       width: 90vw;
@@ -144,6 +154,9 @@ table {
   background-repeat: no-repeat;
   background-position: center;
   display: flex; }
+  @media (max-width: 1080px) {
+    #canoe {
+      width: 50%; } }
   @media (max-width: 839px) {
     #canoe {
       width: 90vw;
@@ -159,6 +172,9 @@ table {
   background-repeat: no-repeat;
   background-position: center;
   display: flex; }
+  @media (max-width: 1080px) {
+    #photo {
+      width: 50%; } }
   @media (max-width: 839px) {
     #photo {
       width: 90vw;
@@ -175,6 +191,9 @@ table {
   background-position: center;
   background-size: cover;
   display: flex; }
+  @media (max-width: 1080px) {
+    #custom {
+      width: 100%; } }
   @media (max-width: 839px) {
     #custom {
       width: 90vw;
@@ -250,7 +269,7 @@ table {
   padding-left: 15px; }
   @media (max-width: 839px) {
     #playBtn img {
-      width: 40px;
+      width: 30px;
       padding-right: 7px; } }
 
 #playTriangle {
@@ -301,6 +320,7 @@ table {
   position: relative;
   height: 100px;
   width: 100px;
+  min-width: 100px;
   border-radius: 50%;
   background-color: black;
   opacity: .5; }

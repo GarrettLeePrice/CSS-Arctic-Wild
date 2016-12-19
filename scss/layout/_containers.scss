@@ -27,11 +27,12 @@
 .section2 {
   width: 100%;
   height: auto;
+  margin-top: 80px;
   display: flex;
   flex-wrap: wrap;
   background-color: rgb(209, 209, 201);
     @media (max-width: 839px) {
-      display: block;
+      margin-top: 20px;
     }
 }
 
@@ -50,16 +51,16 @@
   background-position: center;
   background-size: cover;
   display: flex;
+    @media (max-width: 1080px) {
+      width: 100%;
+    }
     @media (max-width: 839px) {
       width: 90vw;
       height: 250px;
       margin: 20px auto;
       padding: 10px;
       background-position: bottom right;
-
-  }
-
-
+    }
 }
 
 #baseCamp {
@@ -69,6 +70,9 @@
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
+    @media (max-width: 1080px) {
+      width: 50%;
+    }
     @media (max-width: 839px) {
       width: 90vw;
       height: 250px;
@@ -86,6 +90,9 @@
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
+    @media (max-width: 1080px) {
+      width: 50%;
+    }
     @media (max-width: 839px) {
       width: 90vw;
       height: 250px;
@@ -103,6 +110,9 @@
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
+    @media (max-width: 1080px) {
+      width: 50%;
+    }
     @media (max-width: 839px) {
       width: 90vw;
       height: 250px;
@@ -120,6 +130,9 @@
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
+    @media (max-width: 1080px) {
+      width: 50%;
+    }
     @media (max-width: 839px) {
       width: 90vw;
       height: 250px;
@@ -137,8 +150,10 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
   display: flex;
+    @media (max-width: 1080px) {
+      width: 100%;
+    }
     @media (max-width: 839px) {
       width: 90vw;
       height: 250px;
