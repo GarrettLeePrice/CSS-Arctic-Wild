@@ -1,7 +1,6 @@
 .section1 {
   height:950px;
-  width: 100vw;
-  max-width: 1650px;
+  width: 100%;
   background-image: url("../img/bckgrnd1.jpg");
   display: flex;
   background-color: rgb(209, 209, 201);
@@ -15,12 +14,10 @@
 }
 
 .headline {
-  margin-top: 295px;
   width: 850px;
   margin: 0 auto;
   align-self: center;
   text-align: center;
-
     @media (min-width: 839px) {
       padding-top: 200px;
 
@@ -28,8 +25,7 @@
 }
 
 .section2 {
-  width: 100vw;
-  max-width: 1650px;
+  width: 100%;
   height: auto;
   display: flex;
   flex-wrap: wrap;
@@ -39,14 +35,20 @@
     }
 }
 
+.galleryImg:hover .icon {
+  cursor: pointer;
+  transform: scale(1.3);
+  transition: all .2s ease-in-out;
+}
+
 
 #rafting {
-  flex-grow: 2;
-  width: 420px;
+  width: 50%;
   height: 420px;
   background-image: url("../img/raft.jpg");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   display: flex;
     @media (max-width: 839px) {
       width: 90vw;
@@ -61,8 +63,7 @@
 }
 
 #baseCamp {
-  flex-grow: 1;
-  width: 420px;
+  width: 25%;
   height: 420px;
   background-image: url("../img/basecamp.jpg");
   background-repeat: no-repeat;
@@ -79,8 +80,7 @@
   }
 
 #backPacking {
-  flex-grow: 1;
-  width: 420px;
+  width: 25%;
   height: 420px;
   background-image: url("../img/backpacking.jpg");
   background-repeat: no-repeat;
@@ -97,8 +97,7 @@
 }
 
 #canoe {
-  flex-grow: 1;
-  width: 420px;
+  width: 25%;
   height: 420px;
   background-image: url("../img/canoe.jpg");
   background-repeat: no-repeat;
@@ -115,8 +114,7 @@
 }
 
 #photo {
-  flex-grow: 1;
-  width: 420px;
+  width: 25%;
   height: 420px;
   background-image: url("../img/photo.jpg");
   background-repeat: no-repeat;
@@ -133,12 +131,13 @@
 }
 
 #custom {
-  flex-grow: 2;
-  width: 420px;
+  width: 50%;
   height: 420px;
   background-image: url("../img/custom.jpg");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
+
   display: flex;
     @media (max-width: 839px) {
       width: 90vw;

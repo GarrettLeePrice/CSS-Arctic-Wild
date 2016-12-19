@@ -10,7 +10,7 @@ _This site is a recreation of the arcticwild.com website, built to demonstrate m
 
 ## Setup/Installation Requirements
 
-* _To see the live site go to - garrettleeprice.github.io/CSS-Arctic-Wild
+* [To see the live site go to -](http://garrettleeprice.github.io/CSS-Arctic-Wild)
 
 * _Or_
 

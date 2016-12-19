@@ -1,5 +1,6 @@
 .exploreBtn {
-  margin-top: 150px;
+  padding-top: 150px;
+  margin-left: 20px;
     button{
       background-color: #dc7725;
       border: none;
@@ -38,9 +39,10 @@
   transition: all .2s ease-in-out; }
 
 #playBtn img {
-  padding-left: 10px;
+  padding-left: 15px;
   @media (max-width: 839px) {
-    width: 30px;
+    width: 40px;
+    padding-right: 7px;
   }
 
 }
@@ -56,7 +58,7 @@
 .nav2 {
   display: flex;
   width: 100%;
-  max-width: 1650px;
+  // max-width: 1650px;
   height: 80px;
   justify-content: space-between;
   border: 1px solid black;
