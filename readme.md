@@ -12,7 +12,7 @@ _This site is a recreation of the arcticwild.com website, built to demonstrate m
 
 ## Setup/Installation Requirements
 
-* [Click here to see the live site - garrettleeprice.github.io/CSS-Arctic-Wild ](http://garrettleeprice.github.io/CSS-Arctic-Wild)
+* [Click here to see the live site - garrettleeprice.github.io/arcticwildMock ](http://garrettleeprice.github.io/CSS-Arctic-Wild)
 
 * _Or_
 
